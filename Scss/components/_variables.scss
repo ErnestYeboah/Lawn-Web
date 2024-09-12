@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Abel&family=Big+Shoulders+Inline+Text&family=Bellefair&family=Cantata+One&family=Cormorant+Upright&family=Akaya+Kanadaka&family=Alice&family=Big+Shoulders+Stencil+Display&family=Corben&family=Croissant+One&family=Dynalight&family=Fira+Sans&family=Open+Sans&family=Explora&Jim+Nightshade&family=Medula+One&family=Satoshi&family=Inter&family=Mulish&family=Metal+Mania&family=Nova+Cut&family=UnifrakturMaguntia&family=Coda&family=Charm&family=Cookie&family=Felipa&family=Delius&family=Alex+Brush&family=Arsenal&family=Antonio:wght@100..700&family=Arapey:ital@0;1&family=Aref+Ruqaa:wght@400;700&family=Asul:wght@400;700&family=Bebas+Neue&family=Cardo:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=Figtree&family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel+Decorative&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster+Two&family=Amita&family=Berkshire+Swash&family=Alfa+Slab+One&family=Orbitron&family=Abril+Fatface&family=Great+Vibes&family=Pacifico&family=Whisper&family=Satisfy&family=Dorsa&family=Exo&family=Farro&family=Montserrat+Alternates&family=Advent+Pro&family=Gotu&family=Jua&family=Laila&family=Notable&family=Proza+Libre&family=Marvel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Emoji:wght@300..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pattaya&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rum+Raisin&family=Sarpanch&family=Stick+No+Bills&family=Ubuntu&family=ZCOOL+XiaoWei&family=Rouge+Script&family=Quintessential&display=swap");
+
+:root {
+  --primary-clr: #f8f5f5;
+  --secondary-clr: #112603;
+  --accent-clr: hsl(123, 59%, 29%);
+  --accent-clr: hsla(96, 85%, 47%, 0.616);
+  --alt-primary-clr: #b1b2b5;
+  --text-clr: #212121;
+
+  --p-font: poppins;
+  --heading-font: Libre Baskerville;
+  // --radius: 1rem 1rem 0 0;
+
+  --fast: 500ms;
+  --smooth: 1200ms;
+
+  --padding: clamp(3cqi, 6vw, 6cqi);
+  --margin-down: 0.5rem;
+  --mobile-padding: 8rem;
+
+  --small-size: clamp(0.8rem, 3vw, 1rem);
+  // --small-size: calc(var(--small-size) + 0.2rem);
+  --p-size: clamp(1.1rem, 3vw, 1.5rem);
+  --heading-size: clamp(1.4rem, 3vw, 2rem);
+
+  --gap: 1rem;
+  --extra-gap: calc(var(--gap) * 2);
+}
+
+[aria-current="page"] {
+  color: var(--accent-clr);
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light dark;
+}
+
+body {
+  background-color: var(--primary-clr);
+}
+
+:has(:target) {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  max-width: var(--img-size, 100%);
+  height: var(--img-height);
+  // aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+::before,
+::after {
+  content: "";
+  position: absolute;
+}
