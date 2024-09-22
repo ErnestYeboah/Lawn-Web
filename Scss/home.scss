@@ -575,7 +575,7 @@ input {
   opacity: 0;
   animation: display 500ms linear forwards;
   animation-timeline: view();
-  animation-range: 200vh;
+  animation-range: 300vh;
 
   &:hover {
     background-color: var(--accent-clr);
