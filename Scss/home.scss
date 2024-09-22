@@ -51,7 +51,7 @@ h2 {
     width: min(5%, 30px);
     aspect-ratio: 1;
     background-color: var(--secondary-clr);
-    background-image: url(/images/lawn6.jpeg);
+    background-image: url("../images/lawn6.jpeg");
     @include bg;
     left: 0;
     top: 0;
@@ -330,7 +330,7 @@ input {
 
     position: relative;
     &::before {
-      background-image: url("/images/lawn.jpeg");
+      background-image: url("../images/lawn.jpeg");
       @include bg;
       width: 100px;
       height: 150px;
@@ -352,7 +352,7 @@ input {
   min-height: 50vh;
   padding-block-start: clamp(var(--mobile-padding), 6vw, 8cqi);
   position: relative;
-  background-image: url("/svg/hand-drawn-colorless-illustrations.png");
+  background-image: url("../svg/hand-drawn-colorless-illustrations.png");
   @include bg;
   isolation: isolate;
   display: grid;
@@ -482,7 +482,7 @@ input {
       hsla(0, 0%, 0%, var(--alpha)),
       hsla(0, 0%, 0%, var(--alpha))
     );
-  background-image: url("/images/lawn5.jpeg");
+  background-image: url("../images/lawn5.jpeg");
   @include bg;
   background-blend-mode: overlay;
   padding-block-end: calc(var(--padding) * 2);
@@ -500,7 +500,7 @@ input {
 .customer-testimonials-sec {
   --change-clr: var(--primary-clr);
   // --change-clr: hsla(from var(--primary-clr) h s l / 0.9);
-  background-image: url("/svg/hand-drawn-colorless-illustrations.png");
+  background-image: url("../svg/hand-drawn-colorless-illustrations.png");
   background-blend-mode: overlay;
   @include bg;
 
@@ -536,7 +536,7 @@ input {
 }
 
 .contact-form {
-  background-image: url("/images/lawn4.jpeg");
+  background-image: url("../images/lawn4.jpeg");
   @include bg;
   display: grid;
   padding-block-end: var(--mobile-padding);
@@ -584,7 +584,7 @@ input {
 
 footer {
   background-color: var(--secondary-clr);
-  background-image: url("/svg/hand-drawn-colorless-illustrations.png");
+  background-image: url("../svg/hand-drawn-colorless-illustrations.png");
   @include bg;
   background-blend-mode: overlay;
   color: var(--primary-clr);
