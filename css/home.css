@@ -435,7 +435,7 @@ input {
 .header {
   min-height: 85vh;
   min-height: 85svh;
-  background-image: url("/images/R.jpg");
+  background-image: url("../images/R.jpg");
   background-size: cover;
   padding: var(--padding);
   position: relative;
