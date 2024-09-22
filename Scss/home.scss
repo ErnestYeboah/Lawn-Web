@@ -595,6 +595,9 @@ footer {
     padding-block-start: var(--mobile-padding);
   }
 
+  .active {
+    background-color: red;
+  }
   & h3 {
     font-size: clamp(2rem, 5vw, 4rem);
     text-align: center;
