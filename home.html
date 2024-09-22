@@ -74,7 +74,7 @@
     <main>
       <section id="why-they-choose-us" class="why-they-choose-us">
         <span data-type="img-wrapper"
-          ><img src="images/lawn2.jpeg" alt=""
+          ><img src="images/lawn2.jpeg" alt="" loading="lazy"
         /></span>
         <div data-type="text">
           <h2>Why Should You <span class="span-clr">Choose Us</span></h2>
@@ -142,15 +142,20 @@
       <section id="featured-sec" class="featured-sec gray-svg alt-svg">
         <h3>Featured</h3>
         <div class="featured__logos">
-          <img src="images/agric-logo.jpeg" alt="" />
+          <img src="images/agric-logo.jpeg" alt="agric-logo" loading="lazy" />
           <img
             src="images/Agriculture logo, Farming logo creation.jpeg"
             alt=""
           />
-          <img src="images/Free Agriculture Logo Design Template.jpeg" alt="" />
+          <img
+            src="images/Free Agriculture Logo Design Template.jpeg"
+            alt=""
+            loading="lazy"
+          />
           <img
             src="images/I will design a flat and minimalist logo within 12 hours.jpeg"
             alt=""
+            loading="lazy"
           />
         </div>
       </section>
@@ -161,7 +166,7 @@
           <button><a href="tel:0591431484">Call Us Now</a></button>
         </div>
 
-        <img src="images/Photoroom-20240908_000624.png" alt="" />
+        <img src="images/Photoroom-20240908_000624.png" alt="" loading="lazy" />
       </section>
       <section
         id="locations-sec"
@@ -222,9 +227,14 @@
         id="contact-form"
         class="contact-form header-svg header-dark-svg"
       >
-        <form action="none" method="get">
+        <form action="https://api.web3forms.com/submit" method="POST">
           <h2>Let Us Know You.</h2>
           <div>
+            <input
+              type="hidden"
+              name="access_key"
+              value="36fc94a9-e47f-4530-bf80-81526a8ac908"
+            />
             <label for="username">Username : </label>
             <input
               type="text"
